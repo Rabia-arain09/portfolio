@@ -3,7 +3,7 @@
 A premium, dark-themed personal portfolio built with plain HTML, CSS and
 JavaScript — no frameworks, no build step. Open `index.html` in a browser
 and it works.
-
+Portfolio deployed with GitHub and Vercel.
 ## Folder structure
 
 ```
