@@ -1,0 +1,35 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgCareer" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b1730"/>
+      <stop offset="100%" stop-color="#141221"/>
+    </linearGradient>
+    <linearGradient id="lineCareer" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C6FF0"/>
+      <stop offset="100%" stop-color="#4F8CFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bgCareer)"/>
+  <g stroke="url(#lineCareer)" stroke-width="1.5" opacity="0.7">
+    <line x1="120" y1="120" x2="260" y2="80"/>
+    <line x1="120" y1="120" x2="260" y2="200"/>
+    <line x1="120" y1="240" x2="260" y2="200"/>
+    <line x1="120" y1="240" x2="260" y2="300"/>
+    <line x1="260" y1="80" x2="400" y2="140"/>
+    <line x1="260" y1="200" x2="400" y2="140"/>
+    <line x1="260" y1="200" x2="400" y2="260"/>
+    <line x1="260" y1="300" x2="400" y2="260"/>
+    <line x1="400" y1="140" x2="500" y2="190"/>
+    <line x1="400" y1="260" x2="500" y2="190"/>
+  </g>
+  <g fill="url(#lineCareer)">
+    <circle cx="120" cy="120" r="7"/>
+    <circle cx="120" cy="240" r="7"/>
+    <circle cx="260" cy="80" r="6"/>
+    <circle cx="260" cy="200" r="6"/>
+    <circle cx="260" cy="300" r="6"/>
+    <circle cx="400" cy="140" r="6"/>
+    <circle cx="400" cy="260" r="6"/>
+    <circle cx="500" cy="190" r="9"/>
+  </g>
+</svg>

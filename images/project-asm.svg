@@ -1,0 +1,30 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgAsm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#181a2c"/>
+      <stop offset="100%" stop-color="#121323"/>
+    </linearGradient>
+    <linearGradient id="fillAsm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C6FF0"/>
+      <stop offset="100%" stop-color="#4F8CFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bgAsm)"/>
+  <rect x="200" y="80" width="200" height="240" rx="16" fill="rgba(255,255,255,0.04)" stroke="url(#fillAsm)" stroke-width="2"/>
+  <rect x="220" y="100" width="160" height="50" rx="8" fill="rgba(124,111,240,0.15)"/>
+  <text x="365" y="132" font-family="monospace" font-size="20" fill="url(#fillAsm)" text-anchor="end">128</text>
+  <g fill="none" stroke="url(#fillAsm)" stroke-width="2">
+    <rect x="220" y="165" width="34" height="34" rx="6"/>
+    <rect x="264" y="165" width="34" height="34" rx="6"/>
+    <rect x="308" y="165" width="34" height="34" rx="6"/>
+    <rect x="352" y="165" width="28" height="34" rx="6"/>
+    <rect x="220" y="209" width="34" height="34" rx="6"/>
+    <rect x="264" y="209" width="34" height="34" rx="6"/>
+    <rect x="308" y="209" width="34" height="34" rx="6"/>
+    <rect x="352" y="209" width="28" height="34" rx="6"/>
+    <rect x="220" y="253" width="34" height="34" rx="6"/>
+    <rect x="264" y="253" width="34" height="34" rx="6"/>
+    <rect x="308" y="253" width="34" height="34" rx="6"/>
+    <rect x="352" y="253" width="28" height="34" rx="6"/>
+  </g>
+</svg>
